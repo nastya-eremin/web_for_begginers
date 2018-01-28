@@ -1,18 +1,18 @@
 /*подключение reset*/
 @import url(reset3.css);
-@import url('https://fonts.googleapis.com/css?family=Sedgwick+Ave|Supermercado+One');
+/*@import url('https://fonts.googleapis.com/css?family=Sedgwick+Ave|Supermercado+One'); этот импорт лишний, т.к. ниже написан импорт сразу 3-х шрифтов*/
 @import url('https://fonts.googleapis.com/css?family=Quicksand|Sedgwick+Ave|Supermercado+One');
 
 h1 {
  font-size: 65px;
- font-family: 'Supermercado One', cursive;
+ /*font-family: 'Supermercado One', cursive; - этот стиль все равно не применится, т.к. ниже написан новый*/
  font-family: 'Sedgwick Ave', cursive;
  text-align: center;
  line-height: 20vh;
 }
 p { font-size: 25px;
- font-family: 'Supermercado One', cursive;
- font-family: 'Sedgwick Ave', cursive;
+ /*font-family: 'Supermercado One', cursive;
+ font-family: 'Sedgwick Ave', cursive; - эти 2 стиля не применятся, т.к. ниже написан новый*/
  font-family: 'Quicksand', sans-serif;
  text-align: center;
 }
@@ -36,4 +36,10 @@ color:white;
 	text-align: center;
 	text-decoration: underline;
 	
+}
+
+/*Я пыталась sedgwick применить и к h1 и к одному из параграфов ( do t forget laptop)  присвоив ему отдельный класс но ничего на вышло делаю*/
+
+.sedgwick {
+	font-family: 'Sedgwick Ave', cursive;
 }
