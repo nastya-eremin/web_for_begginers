@@ -1,0 +1,39 @@
+/*подключение reset*/
+@import url(reset3.css);
+@import url('https://fonts.googleapis.com/css?family=Sedgwick+Ave|Supermercado+One');
+@import url('https://fonts.googleapis.com/css?family=Quicksand|Sedgwick+Ave|Supermercado+One');
+
+h1 {
+ font-size: 65px;
+ font-family: 'Supermercado One', cursive;
+ font-family: 'Sedgwick Ave', cursive;
+ text-align: center;
+ line-height: 20vh;
+}
+p { font-size: 25px;
+ font-family: 'Supermercado One', cursive;
+ font-family: 'Sedgwick Ave', cursive;
+ font-family: 'Quicksand', sans-serif;
+ text-align: center;
+}
+body {
+ background-color: pink;
+}
+.mainHeader {
+ height: 40vh;
+ background-image: url(../image/cupcake.png);
+}
+.content {
+ width:100vw;
+ height:300px;
+ border:2px dashed white;
+ border-radius:40px;
+}
+.mainFooter {
+	font-family: Arial, Helvetica,sans-serif;
+	font-size: 25px;
+color:white;
+	text-align: center;
+	text-decoration: underline;
+	
+}
