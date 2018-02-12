@@ -32,7 +32,6 @@ img {
 	width: 30%;
 	display: inline-block;
 	font-size: 25px;
-	position: absolute;
 	text-align: center;
 }
 
@@ -45,7 +44,8 @@ color: rgb(239, 231, 185);
 
  a {
 	text-decoration: none;	
-
+	display:block;
+	line-height: 40px;
 }
 
 .hero h1 {
@@ -77,11 +77,11 @@ color: rgb(239, 231, 185);
 
 .Footer {
 	min-height: 100px;
+	background-color: rgb(239, 231, 185);
 }
 .Footer p {
 	text-align: center;
 	font-size: 20px;
-	background-color: rgb(239, 231, 185);
 	color: rgb(109, 52, 94);
 
 }
